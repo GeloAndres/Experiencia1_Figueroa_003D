@@ -1,0 +1,148 @@
+
+#mente{
+    background-color:  #feca40;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(233, 181, 69) 25px, rgba(233, 181, 69) 40px);
+
+}
+
+#mente::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+
+#nose{
+    background-color: #feca40;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6);
+}
+
+.text-shadow2{
+    color: indigo;
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.precio{
+    color: darkgreen;
+    font-size: 30px;
+}
+
+#compras{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(99,196,255,1) 40%);
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    overflow: hidden;
+  }
+  
+  .contenedor-footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+  
+  
+  .titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+  }
+  
+  .content-foo{
+    text-align: center;
+    padding: 0px 4%;
+  }
+  
+  .content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid blue;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .content-foo p{
+    color: #ccc;
+  }
+
+.agregado{
+  padding: 50px 0px;
+}
+
+#compras2{
+  background: rgb(255, 255, 255);
+  background-size: 75%;
+  margin-top: -20px;
+}
+
+#complemento{
+  background-color: #46637f;
+  margin: 2% 5%;
+  padding: 5%;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.paladio{
+  padding-bottom: 30px;
+  font-family:sans-serif;
+  font-size: 20px;
+}
+
+button{
+  color: #fff;
+  background-color: black;
+  border: 0px;
+  border-radius: 6px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0px 40%;
+  margin-bottom: 60px;
+  
+}
+
+button:hover{
+  color: black;
+  background-color: #fff;
+  font-size: 30px;
+  font-family:sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  width: 100%;
+  text-align: center;
+}
